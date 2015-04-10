@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+        <integer-array name="tables">
+            <item>4</item>
+            <item>5</item>
+            <item>6</item>
+            <item>7</item>
+        </integer-array>
+    <string-array
+        name="entree_names">
+        <item>Chori Pollo</item>
+        <item>Pollo con Mole</item>
+        <item>Pollo con Crema</item>
+        <item>Pollo Asado</item>
+        <item>Milanesa</item>
+        <item>Carne Asada</item>
+        <item>Steak Tampiqueno</item>
+        <item>Steak Ranchero</item>
+        <item>Steak Chapala</item>
+        <item>Chefs Special</item>
+        <item>Sizzling Fajitas Steak</item>
+        <item>Sizzling Fajitas Chicken</item>
+        <item>Sizzling Fajitas Shrimp</item>
+        <item>Sizzling Fajitas 50/50</item>
+        <item>Carnitas Dinner</item>
+
+    </string-array>
+    <string-array
+        name="appetizer_names">
+        <item>Nachos Fajita</item>
+        <item>Nachos Supreme</item>
+        <item>Nachos Pollo Asado</item>
+        <item>Nachos Carne Asada</item>
+        <item>Queso Fundido</item>
+        <item>Spinach Dip</item>
+        <item>Cheese Dip</item>
+        <item>Bean Dip</item>
+    </string-array>
+
+    <string-array
+        name="lunch_names">
+        <item>Burrito Cheese Steak</item>
+        <item>Burrito Fajita</item>
+        <item>Burrito Poblano</item>
+        <item>Lunch Chimichanga</item>
+        <item>Mole Poblano</item>
+        <item>Chilaques Michoacan</item>
+        <item>Caldo de Pollo Con Arroz</item>
+        <item>Acapulco</item>
+        <item>Lunch Dos Amigos Chicken</item>
+        <item>Lunch Dos Amigos Beef</item>
+        <item>Tacos al Pastor</item>
+
+    </string-array>
+    <string-array
+        name="desserts_names">
+        <item>Flan</item>
+        <item>Fried Ice Cream</item>
+        <item>Sopapilla</item>
+        <item>Sopapilla w/Ice Cream</item>
+        <item>Raspberry Cheese Bites</item>
+        <item>Dulce de Leche Cheese Bites</item>
+
+    </string-array>
+
+    <string-array
+        name="juice_names">
+        <item>Orange Juice</item>
+        <item>Lemonade</item>
+        <item>Agua de Orchata</item>
+        <item>Grape Juice</item>
+        <item>Ice Tea</item>
+        <item>Coffee</item>
+    </string-array>
+    <string-array
+        name="soda_names">
+        <item>Coca Cola</item>
+        <item>Sprite</item>
+        <item>Diet Coke</item>
+        <item>Fanta</item>
+    </string-array>
+    <string-array
+        name="alcohol_names">
+        <item>Margarita 6 Oz</item>
+        <item>Margarita 26 Oz</item>
+        <item>Pina Colada 6 Oz</item>
+        <item>Pina Colada 26 Oz</item>
+        <item>Corona</item>
+        <item>Dos Equis</item>
+        <item>Budweiser</item>
+    </string-array>
+    </resources>
+

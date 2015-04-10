@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tables_title">Today\'s Tables </string>
+    <string name="table_adapter_title">Table # </string>
+    <string name="client_title">Clients: </string>
+    <string name="kids_title">Children </string>
+    <string name="status_title">Status:</string>
+    <string name="last_checked_title">Last Checked: </string>
+    <string-array
+        name="status_names">
+        <item>Open</item>
+        <item>Waiting for Service</item>
+        <item>Waiting for Drinks</item>
+        <item>Waiting to Order</item>
+        <item>WAITING_FOR_APPETIZER</item>
+        <item>WAITING_FOR_FOOD</item>
+        <item>WAITING_FOR_DESSERT</item>
+        <item>EATING</item>
+        <item>WAITING_FOR_CHECK</item>
+    </string-array>
+    <color
+        name="font_color"
+        >#80ff0000</color>
+    <dimen name="tables_title_font_size">45dp</dimen>
+    <dimen name="tables_row_font_size">20dp</dimen>
+</resources>

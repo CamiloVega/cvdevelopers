@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_button_main_food_title">Food </string>
+    <string name="menu_button_food_entree_title">Entree</string>
+    <string name="menu_button_food_lunch_title">Lunch</string>
+    <string name="menu_button_food_appetizer_title">Appet.</string>
+    <string name="menu_button_food_desserts_title">Dessert</string>
+    <string name="menu_button_main_drinks_title">Drinks </string>
+    <string name="menu_button_drinks_juice_title">Juice</string>
+    <string name="menu_button_drinks_soda_title">Soda</string>
+    <string name="menu_button_drinks_alcohol_title">Alcohol</string>
+
+</resources>

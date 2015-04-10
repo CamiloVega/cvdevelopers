@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.waitermanager.cvdevelopers.waitermanager" >
+
+    <application
+        android:name=".userdata.WaiterManagerApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name=".TablesActivity"
+            android:label="@string/title_activity_tables" >
+        </activity>
+        <activity
+            android:name=".SelectedTableActivity"
+            android:label="@string/title_activity_selected_table"
+            android:parentActivityName=".TablesActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.waitermanager.cvdevelopers.waitermanager.TablesActivity" />
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".MenuActivity1"
+            android:label="@string/title_activity_menu_activity1" >
+        </activity>
+    </application>
+
+</manifest>

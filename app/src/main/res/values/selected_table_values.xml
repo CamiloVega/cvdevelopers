@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+
+        <string name="selected_table_adapter_title">Table # </string>
+        <string name="selected_table_client_title">Customer: </string>
+        <string name="selected_table_kids_title">Child </string>
+        <string name="selected_table_status_title">Status</string>
+        <color
+            name="selected_table_font_color"
+            >#80ff0000</color>
+        <dimen name="selected_table__title_font_size">45dp</dimen>
+        <dimen name="selected_table_row_font_size">20dp</dimen>
+    </resources>
+

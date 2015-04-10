@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dip"
+    android:background="#000000"
+    android:alpha=".75">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sit Customers"
+        android:id="@+id/textView2"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Number of Customers"
+        android:id="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/open_table_dialog_numcustomer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter number"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/textView5"
+        android:layout_toEndOf="@+id/textView5"
+        android:layout_alignTop="@+id/textView5"
+        android:textColor="#FFFFFF">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/open_table_dialog_startbutton"
+        android:layout_width="100dip"
+        android:layout_height="40dip"
+        android:text="Start"
+        android:textSize="25sp"
+        android:background="#0088FF"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textView5" />
+
+    <Button
+        android:id="@+id/open_table_dialog_cancel"
+        android:layout_width="100dip"
+        android:layout_height="40dip"
+        android:text="Cancel"
+        android:textSize="25sp"
+        android:background="#0088FF"
+        android:layout_alignBottom="@+id/open_table_dialog_startbutton"
+        android:layout_alignRight="@+id/open_table_dialog_numcustomer"
+        android:layout_alignEnd="@+id/open_table_dialog_numcustomer"
+        android:layout_marginRight="20dp" />
+
+</RelativeLayout>
