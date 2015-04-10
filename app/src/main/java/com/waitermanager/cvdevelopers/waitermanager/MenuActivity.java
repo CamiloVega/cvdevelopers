@@ -190,7 +190,7 @@ public class MenuActivity extends Activity {
             LinearLayout drinksSubmenuLayout = (LinearLayout) findViewById(R.id.drinks_submenu_buttons);
             LinearLayout menuButtonsLayout = (LinearLayout) findViewById(R.id.food_drink_buttons);
             translateView(drinksSubmenuLayout, menuButtonsLayout.getBottom(), 0);
-            drinksSubmenuShowing = true;
+            drinksSubmenuShowing = true; 
         }
         else
         {
